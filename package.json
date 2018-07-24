@@ -1,0 +1,25 @@
+{
+  "name": "travisci-test",
+  "version": "1.0.0",
+  "description": "Testing the travis ci integeration",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IsaacOduh/travisci-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IsaacOduh/travisci-test/issues"
+  },
+  "homepage": "https://github.com/IsaacOduh/travisci-test#readme",
+  "dependencies": {
+    "save-dev": "^2.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
