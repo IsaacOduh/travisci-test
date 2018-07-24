@@ -8,4 +8,11 @@ describe('calculator',() => {
             assert.equal(result,2);
         });
     });
+
+    describe('add function', () => {
+        it('multiplies numbers',() => {
+            const result = calculator.multiply(1,2);
+            assert.equal(result,2);
+        });
+    });
 });
